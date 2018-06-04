@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/example_data/orders",
+initialSort:"shipcity asc, orderdate desc",
+items:[
+{foreignColumnName:"customerid",primaryDataProviderID:"customerid",typeid:23,uuid:"DB42CA1E-CCF7-4ECB-A1DC-56890393C2FD"}
+],
+name:"customers_to_orders",
+primaryDataSource:"db:/example_data/customers",
+typeid:22,
+uuid:"A86CF310-5687-464D-8046-152861FACBDA"
